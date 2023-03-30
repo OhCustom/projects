@@ -14,6 +14,9 @@ end = dt.datetime(2023, 3, 29)
 while True:
     question = input("What stock would you like the price of? ")
 
+    if question == "":
+        continue
+
     if question == "q":
         break
     else:
